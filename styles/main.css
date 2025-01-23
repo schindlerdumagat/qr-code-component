@@ -101,18 +101,14 @@ textarea:not([rows]) {
   width: 1px;
 }
 
-
 :root {
   --main-bg-color: #d5e1ef;
   --title-color: #1f314f;
   --desc-color: #68778d;
 }
 
-* {
-  font-family: "Outfit", sans-serif;
-}
-
 body {
+  font-family: "Outfit", sans-serif;
   background-color: var(--main-bg-color);
   display: flex;
   justify-content: center;
@@ -129,7 +125,7 @@ body {
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
 }
 
-.qr-code {
+.card img {
   border-radius: 10px;
   aspect-ratio: 1;
   margin-bottom: 1.4rem;
