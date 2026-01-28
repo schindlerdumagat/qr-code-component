@@ -8,21 +8,24 @@
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preload" href="assets/fonts/outfit-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/outfit-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <main>
+    <h1 class="sr-only">Sample QR Code Component</h1>
+    <div class="card">
+      <img class="card__img" src="assets/images/image-qr-code.png" alt="QR code which leads you to the frontend mentor website" width="576" height="576">
+      <div class="card__text-container">
+        <h2 class="card__title">Improve your front-end skills by building projects</h2>
+        <p class="card__description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
